@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GeneTrace | Pedigree Pattern Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo-area">
+
+        <div class="logo-box">
+            G
+        </div>
+
+        <div class="logo-text">
+            <h2>GeneTrace</h2>
+            <p>Pedigree Pattern Explorer</p>
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <a href="#home" class="active">Home</a>
+
+        <a href="#builder">
+            Pedigree Builder
+        </a>
+
+        <a href="#results">
+            Results
+        </a>
+
+        <a href="#whatif">
+            What-If
+        </a>
+
+    </nav>
+
+
+    <button class="demo-button">
+        Try Demo
+    </button>
+
+</header>
+
+
+<!-- ================= MAIN ================= -->
+
+<main>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <span class="tag">
+            BIONODE '26 · PS 06
+        </span>
+
+        <h1>
+            From Family Tree
+            <span>to Explainable Insight.</span>
+        </h1>
+
+        <p class="hero-description">
+
+            GeneTrace converts complex family pedigree information
+            into a structured visual representation and helps explore
+            possible biological inheritance patterns.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#builder" class="primary-button">
+                Build Pedigree →
+            </a>
+
+            <a href="#results" class="secondary-button">
+                View Demo
+            </a>
+
+        </div>
+
+
+        <div class="warning-note">
+
+            <span class="status-dot"></span>
+
+            Educational pattern analysis · Not a medical diagnosis
+
+        </div>
+
+    </div>
+
+
+
+    <!-- HERO VISUAL -->
+
+    <div class="hero-card">
+
+        <div class="card-header">
+
+            <span>LIVE PEDIGREE PREVIEW</span>
+
+            <span class="live-status">
+                ● DEMO
+            </span>
+
+        </div>
+
+
+        <div class="pedigree">
+
+            <div class="person father">
+
+                <div class="symbol male affected">
+                    ■
+                </div>
+
+                <small>I-01</small>
+
+            </div>
+
+
+            <div class="marriage-line"></div>
+
+
+            <div class="person mother">
+
+                <div class="symbol female">
+                    ○
+                </div>
+
+                <small>I-02</small>
+
+            </div>
+
+
+            <div class="vertical-line"></div>
+
+
+            <div class="horizontal-child-line"></div>
+
+
+            <div class="person son">
+
+                <div class="symbol male affected">
+                    ■
+                </div>
+
+                <small>II-01</small>
+
+            </div>
+
+
+            <div class="person daughter">
+
+                <div class="symbol female affected">
+                    ●
+                </div>
+
+                <small>II-02</small>
+
+            </div>
+
+        </div>
+
+
+        <div class="pedigree-stats">
+
+            <div>
+                <strong>3</strong>
+                <span>Members</span>
+            </div>
+
+            <div>
+                <strong>2</strong>
+                <span>Generations</span>
+            </div>
+
+            <div>
+                <strong>1</strong>
+                <span>Relationship</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="section">
+
+    <div class="section-title">
+
+        <span class="tag">
+            CORE WORKFLOW
+        </span>
+
+        <h2>
+            Build → Analyze → Explain
+        </h2>
+
+        <p>
+            GeneTrace provides a structured workflow for exploring
+            family inheritance patterns.
+        </p>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+
+        <div class="feature-card cyan">
+
+            <div class="feature-number">
+                01
+            </div>
+
+            <h3>
+                Build
+            </h3>
+
+            <p>
+                Create family members, generations and relationships
+                using a simple pedigree interface.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card green">
+
+            <div class="feature-number">
+                02
+            </div>
+
+            <h3>
+                Mark
+            </h3>
+
+            <p>
+                Mark individuals as affected, unaffected or unknown
+                and identify their biological sex.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card purple">
+
+            <div class="feature-number">
+                03
+            </div>
+
+            <h3>
+                Analyze
+            </h3>
+
+            <p>
+                Compare the observed family pattern against
+                different inheritance models.
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card orange">
+
+            <div class="feature-number">
+                04
+            </div>
+
+            <h3>
+                Explain
+            </h3>
+
+            <p>
+                Display supporting observations and possible
+                contradictions behind the analysis.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SYSTEM FLOW ================= -->
+
+<section class="flow-section">
+
+    <div class="flow-title">
+        SYSTEM FLOW
+    </div>
+
+
+    <div class="flow">
+
+        <div class="flow-box">
+            Family Pedigree
+        </div>
+
+        <span>→</span>
+
+        <div class="flow-box">
+            Structured Graph
+        </div>
+
+        <span>→</span>
+
+        <div class="flow-box">
+            Rule Engine
+        </div>
+
+        <span>→</span>
+
+        <div class="flow-box">
+            Evidence
+        </div>
+
+        <span>→</span>
+
+        <div class="flow-box highlight">
+            Explainable Insight
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= BUILDER ================= -->
+
+<section id="builder" class="builder-section">
+
+    <div class="page-heading">
+
+        <div>
+
+            <span class="tag">
+                PHASE 1
+            </span>
+
+            <h2>
+                Pedigree Builder
+            </h2>
+
+            <p>
+                Create and organize members of a family pedigree.
+            </p>
+
+        </div>
+
+
+        <button class="outline-button">
+            Load Demo Case
+        </button>
+
+    </div>
+
+
+
+    <div class="builder-layout">
+
+
+        <!-- LEFT CONTROL PANEL -->
+
+        <aside class="control-panel">
+
+            <h3>
+                ADD FAMILY MEMBER
+            </h3>
+
+
+            <label>
+                Name / ID
+            </label>
+
+            <input
+                type="text"
+                placeholder="Example: II-01"
+            >
+
+
+            <label>
+                Sex
+            </label>
+
+            <div class="choice-grid">
+
+                <button class="choice active">
+                    Male
+                </button>
+
+                <button class="choice">
+                    Female
+                </button>
+
+                <button class="choice">
+                    Unknown
+                </button>
+
+            </div>
+
+
+            <label>
+                Status
+            </label>
+
+            <div class="status-list">
+
+                <button class="status active">
+                    <span class="circle"></span>
+                    Affected
+                </button>
+
+                <button class="status">
+                    <span class="circle"></span>
+                    Unaffected
+                </button>
+
+                <button class="status">
+                    <span class="circle"></span>
+                    Unknown
+                </button>
+
+            </div>
+
+
+            <label>
+                Generation
+            </label>
+
+            <select>
+
+                <option>Generation I</option>
+
+                <option selected>
+                    Generation II
+                </option>
+
+                <option>
+                    Generation III
+                </option>
+
+                <option>
+                    Generation IV
+                </option>
+
+            </select>
+
+
+            <button class="add-member">
+                + Add Person
+            </button>
+
+
+            <div class="divider"></div>
+
+
+            <h3>
+                QUICK GUIDE
+            </h3>
+
+            <p class="guide">
+                Add family members and mark their status.
+                Relationship drawing and automated analysis
+                will be connected in the next phase.
+            </p>
+
+
+            <div class="legend">
+
+                <div>
+                    <span class="legend-square"></span>
+                    Male
+                </div>
+
+                <div>
+                    <span class="legend-circle"></span>
+                    Female
+                </div>
+
+                <div>
+                    <span class="legend-filled"></span>
+                    Affected
+                </div>
+
+            </div>
+
+        </aside>
+
+
+
+        <!-- PEDIGREE CANVAS -->
+
+        <div class="canvas-panel">
+
+            <div class="canvas-header">
+
+                <div>
+
+                    <span>
+                        PEDIGREE CANVAS
+                    </span>
+
+                    <strong>
+                        3 Members
+                    </strong>
+
+                </div>
+
+                <div class="ready">
+                    ● READY
+                </div>
+
+            </div>
+
+
+            <div class="canvas">
+
+                <div class="canvas-person person-one">
+
+                    <div class="canvas-symbol affected">
+                        ■
+                    </div>
+
+                    <small>I-01</small>
+
+                </div>
+
+
+                <div class="canvas-person person-two">
+
+                    <div class="canvas-symbol">
+                        ○
+                    </div>
+
+                    <small>I-02</small>
+
+                </div>
+
+
+                <div class="canvas-marriage"></div>
+
+                <div class="canvas-vertical"></div>
+
+                <div class="canvas-child-line"></div>
+
+
+                <div class="canvas-person person-three">
+
+                    <div class="canvas-symbol affected">
+                        ■
+                    </div>
+
+                    <small>II-01</small>
+
+                </div>
+
+
+                <div class="canvas-person person-four">
+
+                    <div class="canvas-symbol">
+                        ○
+                    </div>
+
+                    <small>II-02</small>
+
+                </div>
+
+            </div>
+
+
+            <div class="canvas-footer">
+
+                <span>
+                    ● Selected status
+                </span>
+
+                <span>
+                    Click a member to edit
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- MEMBER LIST -->
+
+        <aside class="members-panel">
+
+            <h3>
+                FAMILY MEMBERS
+            </h3>
+
+
+            <div class="member-item">
+
+                <div>
+
+                    <strong>
+                        I-01
+                    </strong>
+
+                    <small>
+                        Male · Affected
+                    </small>
+
+                </div>
+
+                <span class="member-dot"></span>
+
+            </div>
+
+
+            <div class="member-item">
+
+                <div>
+
+                    <strong>
+                        I-02
+                    </strong>
+
+                    <small>
+                        Female · Unaffected
+                    </small>
+
+                </div>
+
+                <span class="member-dot gray"></span>
+
+            </div>
+
+
+            <div class="member-item">
+
+                <div>
+
+                    <strong>
+                        II-01
+                    </strong>
+
+                    <small>
+                        Male · Affected
+                    </small>
+
+                </div>
+
+                <span class="member-dot"></span>
+
+            </div>
+
+
+            <div class="member-item">
+
+                <div>
+
+                    <strong>
+                        II-02
+                    </strong>
+
+                    <small>
+                        Female · Affected
+                    </small>
+
+                </div>
+
+                <span class="member-dot"></span>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= RESULTS ================= -->
+
+<section id="results" class="results-section">
+
+    <div class="page-heading">
+
+        <div>
+
+            <span class="tag">
+                ANALYSIS PREVIEW
+            </span>
+
+            <h2>
+                Pattern Results
+            </h2>
+
+            <p>
+                A preview of the explainable inheritance analysis screen.
+            </p>
+
+        </div>
+
+        <button class="primary-button">
+            Analyze Pattern →
+        </button>
+
+    </div>
+
+
+
+    <div class="result-banner">
+
+        <div class="check-icon">
+            ✓
+        </div>
+
+        <div>
+
+            <span class="tag">
+                DEMO RESULT
+            </span>
+
+            <h3>
+                Pattern comparison is ready
+            </h3>
+
+            <p>
+                The system compares the observed pedigree against
+                multiple candidate inheritance patterns.
+            </p>
+
+        </div>
+
+        <span class="educational">
+            EDUCATIONAL
+        </span>
+
+    </div>
+
+
+
+    <div class="result-grid">
+
+
+        <div class="result-card selected">
+
+            <div class="result-top">
+
+                <span>
+                    01
+                </span>
+
+                <span class="high">
+                    HIGH
+                </span>
+
+            </div>
+
+            <h3>
+                Autosomal Dominant
+            </h3>
+
+            <div class="progress">
+                <span style="width:88%"></span>
+            </div>
+
+            <p>
+                Across generations · Both sexes · Parent-child observations
+            </p>
+
+            <button>
+                Why? →
+            </button>
+
+        </div>
+
+
+
+        <div class="result-card">
+
+            <div class="result-top">
+
+                <span>
+                    02
+                </span>
+
+                <span class="moderate">
+                    MODERATE
+                </span>
+
+            </div>
+
+            <h3>
+                Autosomal Recessive
+            </h3>
+
+            <div class="progress">
+                <span style="width:58%"></span>
+            </div>
+
+            <p>
+                Some observations may fit this inheritance pattern.
+            </p>
+
+            <button>
+                Why? →
+            </button>
+
+        </div>
+
+
+
+        <div class="result-card">
+
+            <div class="result-top">
+
+                <span>
+                    03
+                </span>
+
+                <span class="low">
+                    LOW
+                </span>
+
+            </div>
+
+            <h3>
+                X-linked Dominant
+            </h3>
+
+            <div class="progress">
+                <span style="width:32%"></span>
+            </div>
+
+            <p>
+                Limited supporting transmission observations.
+            </p>
+
+            <button>
+                Why? →
+            </button>
+
+        </div>
+
+
+
+        <div class="result-card">
+
+            <div class="result-top">
+
+                <span>
+                    04
+                </span>
+
+                <span class="low">
+                    LOW
+                </span>
+
+            </div>
+
+            <h3>
+                X-linked Recessive
+            </h3>
+
+            <div class="progress">
+                <span style="width:27%"></span>
+            </div>
+
+            <p>
+                Current distribution provides limited support.
+            </p>
+
+            <button>
+                Why? →
+            </button>
+
+        </div>
+
+
+
+        <div class="result-card">
+
+            <div class="result-top">
+
+                <span>
+                    05
+                </span>
+
+                <span class="low">
+                    LOW
+                </span>
+
+            </div>
+
+            <h3>
+                Y-linked
+            </h3>
+
+            <div class="progress">
+                <span style="width:18%"></span>
+            </div>
+
+            <p>
+                Both-sex distribution conflicts with male-only transmission.
+            </p>
+
+            <button>
+                Why? →
+            </button>
+
+        </div>
+
+
+
+        <div class="result-card">
+
+            <div class="result-top">
+
+                <span>
+                    06
+                </span>
+
+                <span class="low">
+                    LOW
+                </span>
+
+            </div>
+
+            <h3>
+                Mitochondrial / Maternal
+            </h3>
+
+            <div class="progress">
+                <span style="width:22%"></span>
+            </div>
+
+            <p>
+                Maternal transmission is not dominant in this example.
+            </p>
+
+            <button>
+                Why? →
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVIDENCE -->
+
+    <div class="evidence">
+
+        <div>
+
+            <span class="tag">
+                EXPLAINABILITY
+            </span>
+
+            <h3>
+                Why this pattern?
+            </h3>
+
+        </div>
+
+
+        <div class="evidence-grid">
+
+            <div>
+
+                <strong class="support">
+                    ✓ SUPPORTING EVIDENCE
+                </strong>
+
+                <p>
+                    • Condition appears across generations.<br>
+                    • Both males and females are represented.<br>
+                    • Parent → child transmission is visible.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <strong class="contradiction">
+                    ⚠ CONTRADICTING EVIDENCE
+                </strong>
+
+                <p>
+                    • Some candidate patterns conflict with
+                    the observed family structure.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= WHAT IF ================= -->
+
+<section id="whatif" class="whatif-section">
+
+    <div class="page-heading">
+
+        <div>
+
+            <span class="tag">
+                UNIQUE FEATURE
+            </span>
+
+            <h2>
+                What-If Pedigree
+            </h2>
+
+            <p>
+                Explore how changing one observation could affect
+                the pattern analysis.
+            </p>
+
+        </div>
+
+        <button class="primary-button">
+            Re-analyze
+        </button>
+
+    </div>
+
+
+
+    <div class="whatif-grid">
+
+
+        <!-- BEFORE -->
+
+        <div class="what-card">
+
+            <span class="tag">
+                BEFORE
+            </span>
+
+            <h3>
+                Original Observation
+            </h3>
+
+
+            <div class="mini-pedigree">
+
+                <div class="mini-person father-mini">
+
+                    <b class="affected-symbol">
+                        ■
+                    </b>
+
+                    <small>
+                        Father
+                    </small>
+
+                </div>
+
+
+                <div class="mini-person mother-mini">
+
+                    <b>
+                        ○
+                    </b>
+
+                    <small>
+                        Mother
+                    </small>
+
+                </div>
+
+
+                <div class="mini-marriage"></div>
+
+                <div class="mini-vertical"></div>
+
+
+                <div class="mini-person child-mini">
+
+                    <b class="affected-symbol">
+                        ■
+                    </b>
+
+                    <small>
+                        Son
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <p>
+                Affected father and affected son are present
+                in this demonstration pedigree.
+            </p>
+
+        </div>
+
+
+
+        <!-- CHANGE -->
+
+        <div class="what-card change">
+
+            <span class="tag">
+                CHANGE ONE OBSERVATION
+            </span>
+
+            <h3>
+                What if the son becomes unaffected?
+            </h3>
+
+
+            <div class="toggle-buttons">
+
+                <button class="toggle active">
+                    Affected
+                </button>
+
+                <button class="toggle">
+                    Unaffected
+                </button>
+
+            </div>
+
+
+            <div class="mini-pedigree">
+
+                <div class="mini-person father-mini">
+
+                    <b class="affected-symbol">
+                        ■
+                    </b>
+
+                    <small>
+                        Father
+                    </small>
+
+                </div>
+
+
+                <div class="mini-person mother-mini">
+
+                    <b>
+                        ○
+                    </b>
+
+                    <small>
+                        Mother
+                    </small>
+
+                </div>
+
+
+                <div class="mini-marriage"></div>
+
+                <div class="mini-vertical"></div>
+
+
+                <div class="mini-person child-mini">
+
+                    <b>
+                        □
+                    </b>
+
+                    <small>
+                        Son
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <p>
+                Changing one person's status allows the final
+                rule engine to re-check the family pattern.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="whatif-message">
+
+        <div class="refresh-icon">
+            ↻
+        </div>
+
+        <div>
+
+            <span class="tag">
+                READY
+            </span>
+
+            <h3>
+                Change → Re-analyze → Compare
+            </h3>
+
+            <p>
+                The Phase 2 rule engine will recalculate the
+                pattern compatibility after a change.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div>
+        GENETRACE · BIONODE '26
+    </div>
+
+    <div>
+        Educational pattern analysis only · Not a medical diagnostic tool
+    </div>
+
+</footer>
+
+
+</body>
+</html>
